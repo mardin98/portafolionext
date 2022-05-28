@@ -1,0 +1,180 @@
+
+.container {
+  height: 50px;
+  background-color: black;
+  color: #2196f3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  padding: 0px 100px;
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.inicio {
+  position: relative;
+  display: inline-block;
+  padding: 14.5px 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: 0.2s;
+  border-radius: 10%;
+}
+
+
+
+.inicio:hover {
+  color: white;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  transition-delay: 1s;
+}
+
+
+.inicio span {
+  position: absolute;
+  display: block;
+}
+
+
+
+
+.inicio span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #2196f3);
+}
+
+
+
+.inicio:hover span:nth-child(1) {
+  left: 100%;
+  transition: 1s;
+}
+
+
+.inicio span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #2196f3);
+}
+
+.inicio:hover span:nth-child(3) {
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+
+
+
+.inicio span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #2196f3);
+}
+
+.inicio:hover span:nth-child(2) {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+
+
+.inicio span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #2196f3);
+}
+
+.inicio:hover span:nth-child(4) {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
+
+
+
+.listItem {
+  display: inline;
+  margin-right: 30px;
+  font-size: 14px;
+  /* font-weight: 300; */
+  color: lightgray;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+.list :hover {
+  color: #0c9fc4;
+
+}
+
+
+.hamburger {
+  display: none;
+  width: 25px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.line {
+  width: 100%;
+  height: 3px;
+  background-color: white;
+}
+
+.menu {
+  display: none;
+  position: fixed;
+  width: 50vw;
+  height: calc(100vh - 50px);
+  background-color: black;
+  top: 50px;
+  /* right: 0px; */
+  z-index: 9999;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: lightgray;
+  list-style: none;
+  transition: all 1s ease;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 0px 20px;
+  }
+
+  .listItem {
+    display: none;
+  }
+  .inicio{
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
