@@ -76,26 +76,24 @@ export const users = [
     id: 1,
     avatar: "user1.png",
     comment:
-      "Profesion capacitado en el area capaz de realizar el trabajo de manera eficiente y eficaz",
+      "Profesional capacitado en el area capaz de realizar el trabajo de manera eficiente y eficaz",
     name: "Mardin Turcios",
     title: "Asociado",
   },
   {
     id: 2,
-    logo: "google.png",
     avatar: "user2.jpeg",
     comment:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Utconsectetur veniam fugiat labore quaerat possimus laudantium.",
-    name: "Anna Taylor",
-    title: "HR Manager",
+      "Profesional capacitado en el area capaz de realizar el trabajo de manera eficiente y eficaz",
+    name: "Adriel Turcios",
+    title: "Director",
   },
   {
     id: 3,
-    logo: "facebook.png",
     avatar: "user3.jpeg",
     comment:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Utconsectetur veniam fugiat labore quaerat possimus laudantium.",
-    name: "James Garry",
-    title: "UI Designer",
+      "Profesional capacitado en el area capaz de realizar el trabajo de manera eficiente y eficaz",
+    name: "Carlos Santiago",
+    title: "Gerente",
   },
 ];
