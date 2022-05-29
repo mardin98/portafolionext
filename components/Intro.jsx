@@ -11,7 +11,7 @@ const Intro = () => {
       {/* <Circle backgroundColor="#01c686" right="-40vh" /> */}
       <div className={style.card}>
         <div className={style.title}>
-          <p>AF</p> 
+          <p>Forense</p> 
           <b >
           <div className={style.brandName}>
           Resguardo<br /> 

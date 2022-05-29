@@ -82,7 +82,7 @@ export const users = [
   },
   {
     id: 2,
-    avatar: "user2.jpeg",
+    avatar: "adr.jpeg",
     comment:
       "Profesional capacitado en el area capaz de realizar el trabajo de manera eficiente y eficaz",
     name: "Adriel Turcios",
@@ -90,7 +90,7 @@ export const users = [
   },
   {
     id: 3,
-    avatar: "user3.jpeg",
+    avatar: "san.jpeg",
     comment:
       "Profesional capacitado en el area capaz de realizar el trabajo de manera eficiente y eficaz",
     name: "Carlos Santiago",
